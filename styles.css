@@ -1,0 +1,22 @@
+.jumbotron{
+    background-image:url(pics/jumpingcrop2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+body {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.phototext {
+    color: #FFFFFF;
+    text-align: right;
+    padding-right: 50px;
+}
+
+.card {
+    border: 0px;
+}
+
