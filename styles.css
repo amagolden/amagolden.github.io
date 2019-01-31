@@ -8,6 +8,7 @@
 
 body {
     font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
 }
 
 .phototext {
@@ -21,7 +22,7 @@ body {
     width: 100%;
 }
 
-div img {
+.navbar-brand img {
     width:100%;
 }
 
@@ -31,4 +32,29 @@ div img {
 
 .navbar-brand {
     width: 100px;
+}
+
+.list-unstyled {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mr-3 {
+    font-size: 50px;
+}
+
+.about {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.emphasize {
+    font-weight: bold;
+    color: rgb(0, 80, 0);
+}
+
+.mb-1 {
+    font-weight: bold;
 }
