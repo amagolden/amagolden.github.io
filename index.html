@@ -24,34 +24,31 @@
 
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand" href="#">ForGoodist</a>
+            <a class="navbar-brand" href="#"><img src="Logo.png" alt="ForGoodist Logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+        
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Causes
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Early Childhood Development</a>
-                    <a class="dropdown-item" href="#">Affordable College</a>
-                    <a class="dropdown-item" href="#">Diversity & Inclusion</a>
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Environmental</a>
-                    <a class="dropdown-item" href="#">Opioid Crisis</a>
-                    <a class="dropdown-item" href="#">Disaster Relief</a>
-                    </div>
-                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About <i class="fas fa-lightbulb"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Causes <i class="fas fa-hands-helping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Donate <i class="fas fa-donate"></i></i></a>
+                    </li>
                 </ul>
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> <i class="fas fa-search"></i>
-                </form>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Profile <i class="fas fa-user-circle"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cart <i class="fas fa-shopping-cart"></i></a>
+                    </li>
+                </ul>
             </div>
         </nav>
     </div>
@@ -59,65 +56,32 @@
     <div class="container-fluid">
         <div class="jumbotron">
             <h1 class="phototext">Let's make it count</h1>
-            <p class="phototext">Donate to a bundle of cause-based organizations</p>
+            <p class="phototext">Donate to a bundle of impactful, cause-based organizations</p>
         </div>
     </div>
-
-    <!--
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3 photo1">
-                <h2>Early Childhood Development</h2>
-                <img src="pics/school.jpg">
-            </div>
-            <div class="col-sm-3 photo2">
-                <h2>Closing Equity Gaps</h2>
-                <img src="pics/college.jpg">
-            </div>
-            <div class="col-sm-3 photo3">
-                <h2>Opioid Crisis</h2>
-                <img src="pics/medical.jpg">
-            </div>
-            <div class="col-sm-3 photo4">
-                <h2>Disaster Relief</h2>
-                <img src="pics/fire.jpg">
-            </div>
-        </div>
-    </div>
-
-    <br>
-    -->
 
     <div class="container-fluid">
             <div class="row">
-                <div class="col-sm-3 card" style="width: 18rem;">
+                <div class="col-sm-4 card" style="width: 18rem;">
                     <img src="pics/school.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title">Early Childhood Development</h3>
+                        <h2 class="card-title">Early Childhood Development</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
-                <div class="col-sm-3 card" style="width: 18rem;">
+                <div class="col-sm-4 card" style="width: 18rem;">
                     <img src="pics/college.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title">Closing Equity Gaps</h3>
+                        <h2 class="card-title">Closing Equity Gaps</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
                 </div>
-                <div class="col-sm-3 card" style="width: 18rem;">
-                    <img src="pics/medical.jpg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h3 class="card-title">Opioid Crisis</h3>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        <a href="#" class="btn btn-primary">Learn More</a>
-                    </div>
-                </div>
-                <div class="col-sm-3 card" style="width: 18rem;">
+                <div class="col-sm-4 card" style="width: 18rem;">
                     <img src="pics/fire.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                        <h3 class="card-title">Climate Change</h3>
+                        <h2 class="card-title">Climate Change</h2>
                         <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                         <a href="#" class="btn btn-primary">Learn More</a>
                     </div>
@@ -125,6 +89,49 @@
             </div>
         </div>
 
+        <!-- Decided not to use these two column / card layouts -->
+        <!--
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-4 card" style="width: 18rem;">
+                    <img src="pics/school.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-text">Early Childhood Development</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4 card" style="width: 18rem;">
+                    <img src="pics/college.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-text">Closing Equity Gaps</h2>
+                    </div>
+                </div>
+                <div class="col-sm-4 card" style="width: 18rem;">
+                    <img src="pics/fire.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 class="card-text">Disaster Relief</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-4 photo1">
+                        <img src="pics/school.jpg">
+                        <h2>Early Childhood Development</h2>
+                    </div>
+                    <div class="col-sm-4 photo2">
+                        <img src="pics/college.jpg">
+                        <h2>Closing Equity Gaps</h2>
+                    </div>
+                    <div class="col-sm-4 photo4">
+                        <img src="pics/fire.jpg">
+                        <h2>Disaster Relief</h2>
+                    </div>
+                </div>
+            </div>
+            -->
+        
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
