@@ -59,6 +59,10 @@ body {
     font-weight: bold;
 }
 
+.col-md-6 {
+    padding: 20px;
+}
+
 .col-md-6 img {
     width: 100%;
 }
