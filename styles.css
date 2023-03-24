@@ -1,0 +1,37 @@
+body {
+    font-family: 'Poppins', sans-serif;;
+    font-size: 14px;
+}
+
+..navbar-custom-brand{
+    color: #985741;
+}
+
+.container-custom-header {
+    color: #FFFFFF;
+    background-color: #000C8E;
+}
+
+.container-custom-body {
+    color: #2A36B8;
+    background-color: #EEEFFF;
+}
+
+.container-custom-header2 {
+    color: #00261C;
+    background-color: #EEEFFF;
+    font-size: 24px;
+}
+
+.container-custom-body2 {
+    color: #707EAE;
+    background-color: #EEEFFF;
+}
+
+.navbar-brand img {
+    width:50%;
+}
+
+.container-fluid {
+    padding: 15px 30px;
+}
