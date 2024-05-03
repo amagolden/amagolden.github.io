@@ -44,3 +44,25 @@ function removeStudentByName(students, studentName) {
 //testArray = ["a", "b", "c", "d", "e"];
 
 //console.log(removeStudentByName(testArray, "a"));
+
+//5.2 exercises
+
+//create a program that takes an array of numbers, sums them using an 
+//anonymous function, and then squares the result using an arrow function.
+
+testArray = [1, 2, 3, 4, 5, 6];
+
+const sumSquare = function (numbers) {
+	results = 0;
+
+	for (number in numbers) {
+		results += numbers[number];
+	}
+
+	const square = (sum) => sum * sum;
+
+	return square(results);
+}
+
+//console.log(sumSquare(testArray));
+
