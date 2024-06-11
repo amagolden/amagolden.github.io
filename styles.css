@@ -1,37 +1,90 @@
+.jumbotron{
+    background-image:url(pics/jumpingcrop2.jpg);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
 body {
-    font-family: 'Poppins', sans-serif;;
-    font-size: 14px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
 }
 
-..navbar-custom-brand{
-    color: #985741;
-}
-
-.container-custom-header {
+.phototext {
     color: #FFFFFF;
-    background-color: #000C8E;
+    text-align: left;
+    padding-left: 50px;
 }
 
-.container-custom-body {
-    color: #2A36B8;
-    background-color: #EEEFFF;
-}
-
-.container-custom-header2 {
-    color: #00261C;
-    background-color: #EEEFFF;
-    font-size: 24px;
-}
-
-.container-custom-body2 {
-    color: #707EAE;
-    background-color: #EEEFFF;
+.card {
+    border: 0px;
+    width: 100%;
 }
 
 .navbar-brand img {
-    width:50%;
+    width:100%;
 }
 
-.container-fluid {
-    padding: 15px 30px;
+.card-title {
+    text-align: center;
+}
+
+.navbar-brand {
+    width: 100px;
+}
+
+.list-unstyled {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.mr-3 {
+    font-size: 50px;
+}
+
+.about {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+
+.emphasize {
+    font-weight: bold;
+    color: rgb(0, 80, 0);
+}
+
+.mb-1 {
+    font-weight: bold;
+}
+
+.col-md-6 {
+    padding: 20px;
+}
+
+.col-md-4 {
+    padding: 20px;
+}
+
+.col-md-2 {
+    padding: 20px;
+}
+
+.col-md-6 img {
+    width: 100%;
+}
+
+.col-md-6 td img {
+    width: 100px;
+}
+
+.col-md-6 h1 {
+    text-align: center;
+}
+
+form {
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;  
 }
