@@ -152,29 +152,48 @@
           <div class="card shadow-sm">
             <a href="#"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Employee Poll App</title><image href="pics/engauge.png" width="100%" /></svg></a>
             <div class="card-body">
-              <p class="lead">Engauge: Crowdsourcing Employee Feedback</p>
-              <p>Interactive app that allows employees to submit questions ahead of team meetings. Questions can be anonymous and voted on by other members of the team. Ranked questions are displayed for leadership to address.</p>
-              <p>Technology: react front-end</p>
+              <p class="lead">Employee Poll App</p>
+              <p>App that crowdsources employee questions ahead of team meetings. Users can add questions, submit anonymously, or vote for their favorites.</p>
+              <p>Technology: React, Bootstrap, incorporates CRUD</p>
               
-              <a href="#" id="view-demo" onclick="showVideo()">View Demo</a>
+              <a href="#" id="view-demo-1" onclick="showVideo('video-container-1')">View Demo</a>
 
               <!-- Video container, initially hidden -->
-              <div id="video-container" style="display: none;">
+              <div id="video-container-1" style="display: none;">
                   <video width="350" controls>
                       <source src="pics/engauge demo.mov" type="video/mp4">
                       Your browser does not support the video tag.
                   </video>
               </div>
-              <script>
-                function showVideo() {
-                  // Prevent default link behavior
-                  event.preventDefault();
+              
+              <!--<div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                </div>
+                <small class="text-body-secondary">9 mins</small>
+              </div>-->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <a href="#"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Reese's Book Club Store</title><image href="pics/bookstore.png" width="100%" /></svg></a>
+            <div class="card-body">
+              <p class="lead">E-commerce App</p>
+              <p>E-commerce store based on Reese's Book Club picks. Users can view the list of book club picks and add or remove desired books from their cart.</p>
+              <p>Technology: React, Open Library API, Bootstrap, incorporates CRUD</p>
+              
+              <a href="#" id="view-demo-2" onclick="showVideo('video-container-2')">View Demo</a>
 
-                  // Find the video container and display it
-                  var videoContainer = document.getElementById("video-container");
-                  videoContainer.style.display = "block";
-                }
-              </script>
+              <!-- Video container, initially hidden -->
+              <div id="video-container-2" style="display: none;">
+                  <video width="350" controls>
+                      <source src="pics/bookstore-demo.mov" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
+              </div>
+
               <!--<div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -187,9 +206,22 @@
         </div>
         <div class="col">
           <div class="card shadow-sm">
-            <a href="#"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Example Project 2</title><image href="pics/purplescreen.jpg" width="100%" /></svg></a>
+            <a href="#"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>To Do App</title><image href="pics/todo.png" width="100%" /></svg></a>
             <div class="card-body">
-              <p class="lead">Example Project 2</p>
+              <p class="lead">To Do List App</p>
+              <p>Interactive app that allows users to track their to do list. Users have the ability to add, edit, and delete items as well as mark them complete.</p>
+              <p>Technology: React, Express, Node, Bootstrap, incorporates CRUD</p>
+              
+              <a href="#" id="view-demo-3" onclick="showVideo('video-container-3')">View Demo</a>
+
+              <!-- Video container, initially hidden -->
+              <div id="video-container-3" style="display: none;">
+                  <video width="350" controls>
+                      <source src="pics/todo-demo.mov" type="video/mp4">
+                      Your browser does not support the video tag.
+                  </video>
+              </div>
+
               <!--<div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                   <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
@@ -200,21 +232,16 @@
             </div>
           </div>
         </div>
-        <div class="col">
-          <div class="card shadow-sm">
-            <a href="#"><svg class="bd-placeholder-img card-img-top" width="100%" height="225" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Example Project 3</title><image href="pics/webapp.jpg" width="100%" /></svg></a>
-            <div class="card-body">
-              <p class="lead">Example Project 3</p>
-              <!--<div class="d-flex justify-content-between align-items-center">
-                <div class="btn-group">
-                  <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                </div>
-                <small class="text-body-secondary">9 mins</small>
-              </div>-->
-            </div>
-          </div>
-        </div>
+        <script>
+          function showVideo(containerId) {
+            // Prevent default link behavior
+            event.preventDefault();
+
+            // Find the video container and display it
+            var videoContainer = document.getElementById(containerId);
+            videoContainer.style.display = "block";
+          }
+        </script>
       </div>
     </div>
   </div>
